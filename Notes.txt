@@ -1,0 +1,16 @@
+# installed packages
+nltk
+numpy==1.16.0
+tflearn
+tensorflow==1.13.2
+scikit-image==0.14.2
+
+
+pyinstaller comiles python scripts / packages
+
+
+
+needed to install punkt through NLTK downloader : server index / https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/index.xml
+python:
+>>> import nltk
+>>>nltk.download()
